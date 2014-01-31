@@ -1,52 +1,10 @@
-<!doctype html>
-<html class="no-js">
-<head>
-	<meta charset="utf-8" />
-	<title>PixelLight restart announced|PixelLight</title>
-	<meta name="description" content="PixelLight free open source 3D application framework and rendering engine." />
-	<meta name="keywords" content="PixelLight, 3D, Engine, Open Source, Free, Game Engine" />
-	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-	<link rel="shortcut icon" href="../favicon.png" />
-	<link rel="stylesheet" href="../style.css" />
-	<!--[if lte IE 8 ]><script type="text/javascript" src="../js/ie.js"></script><![endif]-->
-</head>
-<body>
-<div class="wrapper-frame">
-	<header id="header" class="wrapper-row">
-		<div class="container">
-			<div class="wrapper">
-				<div id="logo">
-					<h1><a href="index.html"><img src="../img/logo.png" alt="Mini"></a></h1>
-					<span id="menu-switch" class="icon-arrow-down"></span>
-				</div>
-				<nav id="menu">
-					<ul>
-						<li><a href="../index.html">Home</a></li>
-						<li class="current_page_item"><a href="../news.html">News</a></li>
-						<li class="has-children"><a href="../features.html">Technology</a>
-							<ul>
-									<li><a href="../features.html">Features</a></li>
-									<li><a href="../showcase.html">Showcase</a></li>
-							</ul>
-						</li>
-						<li class="has-children"><a href="team.html">Developers</a>
-							<ul>
-								<li><a href="#">The Team</a></li>
-								<li><a href="#">Contribute</a></li>
-								<li><a href="#">Wiki</a></li>
-								<li><a href="#">Forums</a></li>
-								<li><a href="#">Mailing List</a></li>
-							</ul>
-						</li>
-						<li class="shop-menu-item">
-							<a href="shopping-bag.html"><em class="icon-github"></em> <span class="mobile">Get it now!</span><strong>Get it now!</strong></a>
-						</li>
-					</ul>
-				</nav>
-				<div class="clear"></div>
-			</div>
-		</div>
-	</header>
+<!-- Include the header template -->
+<?php
+$page_title = "PixelLight restart announced";
+$current_page = "news";
+include('header.php');
+?>
+
 	<div id="content" class="wrapper-row wrapper-expand">
 	<section class="container">
 		<div class="col grid12">
@@ -55,7 +13,7 @@
 					<h2 class="bottom-shadow">PixelLight restart announced</h2>
 				</div>
 				<div class="content">
-					<div class="responsive-container margin-bottom"><div class="responsive-wrapper"><img src="../img/Dungeon_9.jpg" alt="" /></div></div>
+					<div class="responsive-container margin-bottom"><div class="responsive-wrapper"><img src="img/Dungeon_9.jpg" alt="" /></div></div>
 					<h3>Greetings everyone.</h3>
 					<p>Please let me introduce myself. My name is Ananta and I have recently taken over the responsibility for maintaining this awesome project and managing its development. This is an open letter to the open-source community about the state of PixelLight.</p>
 
@@ -151,48 +109,8 @@
 		</div>
 	</section>
 	</div>
-	<div class="wrapper-row">
-	<footer id="footer">
-		<div class="bottom">
-			<div class="sep"></div>
-			<div class="container">
-				<div class="col grid6">
-					<p class="copyright">Copyleft 2014 PixelLight Foundation.<br />This page and all of its content, including media, is licensed under the <a href="#">CC BY-SA Creative Commons license</a>. The PixelLight source code is awailable under the <a href="#">MIT license</a>.</p>
-				</div>
-				<div class="col grid6">
-					<p class="right-side">
-						<a href="#" class="button light"><em class="icon-twitter"></em></a>
-						<a href="#" class="button light"><em class="icon-github"></em></a>
-						<a href="#logo" id="top-link" class="button light"><em class="icon-arrow-up"></em></a>
-					</p>
-				</div>
-			</div>
-		</div>
-	</footer>
-	</div>
-</div>
-<!--
-<script type="text/javascript" src="js/jquery.min.js"></script>
-<script type="text/javascript" src="js/jquery.common.min.js"></script>
-<script type="text/javascript" src="js/site.js"></script>
-<script type="text/javascript" src="js/plugins/jquery.iosslider.min.js"></script>
-<script type="text/javascript" src="js/plugins/audio.min.js"></script>
-<script type="text/javascript">
-jQuery(function(){
-	audiojs.createAll();
-	jQuery('.iosSlider').iosSlider({
-		snapToChildren: true,
-		desktopClickDrag: true,
-		keyboardControls: false,
-		infiniteSlider: true,
-		navNextSelector: jQuery('.iosSlider .next'),
-		navPrevSelector: jQuery('.iosSlider .prev')
-	});
-	if (jQuery('.iosSlider .item').length < 2) {
-		jQuery('.iosSlider .controls').remove();
-	}
-});
-</script>
--->
-</body>
-</html>
+	
+<!-- Include the footer template -->
+<?php
+include('footer.php');
+?>

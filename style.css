@@ -437,7 +437,7 @@ html>body .wrapper-expand { height: auto; }
 #header #logo { padding: 1em; position: relative; }
 #header #logo h1 { margin-bottom: 0; }
 #header #logo h1 a { display: inline-block; color: #fff; text-decoration: none; }
-#header #logo h1 a img { max-height: 3em; }
+#header #logo h1 a img { max-height: 1.35em; }
 #header #menu { display: none; }
 #header #menu ul { list-style: none; }
 #header #menu ul, #header #menu li { margin: 0; }
