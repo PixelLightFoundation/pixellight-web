@@ -29,17 +29,21 @@
 									<li <?php if ($current_page == "showcase") echo('class="current_page_item"'); ?> ><a href="showcase.php">Showcase</a></li>
 							</ul>
 						</li>
-						<li class="has-children"><a href="team.php">Developers</a>
+						<li class="has-children
+							<?php
+								if ($current_page == "team" || $current_page == "contribute")
+									echo(' current_page_item');
+							?>
+							"><a href="team.php">Developers</a>
 							<ul>
 								<li><a href="team.php">The Team</a></li>
-								<li><a href="#">Contribute</a></li>
+								<li><a href="contribute.php">Contribute</a></li>
 								<li><a href="#">Wiki</a></li>
 								<li><a href="#">Forums</a></li>
-								<li><a href="#">Mailing List</a></li>
 							</ul>
 						</li>
 						<li class="shop-menu-item">
-							<a href="shopping-bag.html"><em class="icon-github"></em> <span class="mobile">Get it now!</span><strong>Get it now!</strong></a>
+							<a href="download.php"><em class="icon-play"></em> <span class="mobile">Get it now!</span><strong>Get it now!</strong></a>
 						</li>
 					</ul>
 				</nav>

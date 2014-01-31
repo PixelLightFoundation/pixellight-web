@@ -122,7 +122,7 @@ include('header.php');
 					</div>
 				</div>
 				<div class="clear"></div>
-				<a href="#" class="button light">See more</a>
+				<a href="showcase.php" class="button light">See more</a>
 			</div>
 		</div>
 	</section>

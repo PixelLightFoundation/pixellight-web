@@ -547,7 +547,7 @@ html>body .wrapper-expand { height: auto; }
 	#header #menu li.has-children ul { visibility: hidden; position: absolute; top: 100%; left: 0; z-index: 8; width: 11em; text-align: left; background-color: #090909; opacity: 0; -webkit-transition: all 0.2s ease; -moz-transition: all 0.2s ease; -ms-transition: all 0.2s ease; -o-transition: all 0.2s ease; transition: all 0.2s ease; }
 	#header #menu li.has-children ul.left-side { left: auto; right: 0; text-align: right; }
 	#header #menu li.has-children li ul { top: 0; left: 99.99%; }
-	#header #menu li.has-children > a:after { content: '\00a0\002B'; font-family: 'Arial'; }
+	/*#header #menu li.has-children > a:after { content: '\00a0\002B'; font-family: 'Arial'; }*/
 	#header #menu li.has-children ul li { display: block; font-size: 0.9em; }
 	#header #menu li.has-children ul a { display: block; padding: 0.5em 1.25em; margin-left: 0; }
 	#header #menu li.has-children ul a:hover { color: #999; }
