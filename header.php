@@ -2,7 +2,7 @@
 <html class="no-js">
 <head>
 	<meta charset="utf-8" />
-	<title><?php echo($page_title); ?>|PixelLight</title>
+	<title><?php echo($page_title); ?> | PixelLight</title>
 	<meta name="description" content="PixelLight free open source 3D application framework and rendering engine." />
 	<meta name="keywords" content="PixelLight, 3D, Engine, Open Source, Free, Game Engine" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -36,8 +36,8 @@
 							?>
 							"><a href="team.php">Developers</a>
 							<ul>
-								<li><a href="team.php">The Team</a></li>
-								<li><a href="contribute.php">Contribute</a></li>
+								<li <?php if ($current_page == "team") echo('class="current_page_item"'); ?> ><a href="team.php">The Team</a></li>
+								<li <?php if ($current_page == "contribute") echo('class="current_page_item"'); ?> ><a href="contribute.php">Contribute</a></li>
 								<li><a href="#">Wiki</a></li>
 								<li><a href="#">Forums</a></li>
 							</ul>
