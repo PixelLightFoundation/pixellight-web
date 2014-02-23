@@ -19,7 +19,7 @@ include('header.php');
 				
 				<li><strong>Maintain a plugin.</strong> One of PixelLight's best features is its decentralized plugin-based architecture. We have a number of plugins being maintained by the core team itself, but there is a number of them currently without support. You can view the <a href="#">wiki page</a> to see the full list, or just create your own plugin for whatever you need and let us include it inside the official release.<br /><br /></li>
 				
-				<li><strong>Fork our code on github.</strong> Since the code is available freely on <a href="#">github</a>, you can always fork it and make any changes you want. Found a bug you know how to fix? Discovered a way to optimize certain processes? Just fork the repo and create a pull request for us to review and merge back into the master branch. Your contributions, however small, are always welcome!</li>
+				<li><strong>Fork our code on github.</strong> Since the code is available freely on <a href="https://github.com/PixelLightFoundation">github</a>, you can always fork it and make any changes you want. Found a bug you know how to fix? Discovered a way to optimize certain processes? Just fork the repo and create a pull request for us to review and merge back into the master branch. Your contributions, however small, are always welcome!</li>
 			</ul>
 			<p>If you are not much into C++ programming, but would still like to help the project, we are also looking to fill the following positions in our team:</p>
 			<ul>

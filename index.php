@@ -47,7 +47,7 @@ include('header.php');
 		<div class="col grid4 feature">
 			<img src="img/oss_logo.png" alt="" width="111" height="111">
 			<h3>Free and open-source</h3>
-			<p class="small">PixelLight is licensed under the permissive <a href="#">MIT license</a>, allowing its use in all applications, commercial or not.</p>
+			<p class="small">PixelLight is licensed under the permissive <a href="http://opensource.org/licenses/MIT">MIT license</a>, allowing its use in all applications, commercial or not.</p>
 		</div>
 		<div class="col grid4 feature">
 			<img src="img/xpf_logo.png" alt="" width="111" height="111">
@@ -73,7 +73,7 @@ include('header.php');
 		<div class="col grid4 feature">
 			<img src="img/contribute.png" alt="" width="111" height="111">
 			<h3>Contribute</h3>
-			<p class="small">Our team is open to new developers who want to make a contribution to this awesome project. <a href="#">Join now...</a></p>
+			<p class="small">Our team is open to new developers who want to make a contribution to this awesome project. <a href="contribute.php">Join now...</a></p>
 		</div>
 		<div class="clear"></div>
 	</section>
