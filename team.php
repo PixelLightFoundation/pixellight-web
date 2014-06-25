@@ -9,6 +9,9 @@ include('header.php');
 	<section class="container">
 		<div class="col grid12 textcenter">
 			<h2 class="bottom-shadow">The PixelLight Team</h2>
+      <p>
+        <i>Coming soon...</i>
+      </p>
 		</div>
 		<div class="col grid9">
 		

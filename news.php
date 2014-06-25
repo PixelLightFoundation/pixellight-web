@@ -13,17 +13,19 @@ include('header.php');
 		<div class="col grid9">
 			<div class="post">
 				<div class="content">
-					<a href="post_pixellight-restart-announced.php">
+					<a href="post_sunray-on-the-horizon.php">
 						<img src="img/Dungeon_9.jpg" alt="" />
 					</a>
-					<h3><a href="post_pixellight-restart-announced.php">PixelLight restart announced</a></h3>
-					<p>As you may have noticed, the PixelLight project has lied pretty much abandoned for some time now. There was no active development due to various obstacles. We are thus more than happy to announce that the development has now been started anew. Read the full post to learn more about where the project is now heading and how can <strong>you</strong> help it to grow. <a href="post_pixellight-restart-announced.php">(read more)</a></p>
+					<h3><a href="post_sunray-on-the-horizon.php">Sunray on the horizon</a></h3>
+					<p>There was no active development going on with the PixelLight project for some time.
+          Now we are happy to announce that we've made a reboot and are ready to share some of the progress with the community,
+          including a glimpse onto the fresh vision for the engine!<br/><a href="post_sunray-on-the-horizon.php">(read more)</a></p>
 				</div>
 				<div class="meta">
 					<div class="property date">
 						<strong>Published on:</strong>
-						<span class="day">3</span>
-						<span class="month">February</span>
+						<span class="day">23</span>
+						<span class="month">June</span>
 					</div>
 					<div class="property">
 						<strong>Posted by:</strong>

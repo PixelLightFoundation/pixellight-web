@@ -10,9 +10,16 @@ include('header.php');
 		<div class="col grid12">
 			<div class="textcenter">
 				<h2 class="bottom-shadow">Get PixelLight</h2>
-				<p>Here you can get the latest version of PixelLight pre-packed for your platform of choice. You can also download the source code and build it yourself.</p>
+        <!--
+        <p>Here you can get the latest version of PixelLight pre-packed for your platform of choice. You can also download the source code and build it yourself.</p>
+        -->
+        <p>PixelLight doesn't currently have a binary distribution of its most recent stable version simply because there is none at this moment.
+        We are still working hard to reach the next big milestone in the development before we will be aready for an official distribution. You are however
+        welcome to fetch the code from <a href="https://github.com/PixelLightFoundation">github</a> if you
+        are interested in seeing the current progress. Feel free to join our <a href="http://pixellight.org/forum/">forums</a> if you have any questions.</p>
 			</div>
 		</div>
+    <!--
 		<div class="clear"></div>
 		<div class="col grid4 feature">
 			<img src="img/oss_logo.png" alt="" width="111" height="111">
@@ -30,13 +37,14 @@ include('header.php');
 			<img src="img/oss_logo.png" alt="" width="111" height="111">
 			<h3>Mac OSX</h3>
 			<p class="small">No prebuilt binary packages are available for Mac OSX at this moment. Check back later, or just download and build the source code below.</p>
-			<!--<p class="small"><a href="#">32 bit</a> | <a href="#">64 bit</a></p>-->
+			<p class="small"><a href="#">32 bit</a> | <a href="#">64 bit</a></p>
 		</div>
 		<div class="col grid12 feature">
 			<img src="img/oss_logo.png" alt="" width="111" height="111">
 			<h3>Source code</h3>
 			<p class="small">PixelLight source code is hosted on <a href="#">github</a>.</p>
 		</div>
+    -->
 	</section>
 	</div>
 	

@@ -38,6 +38,7 @@
 							<ul>
 								<li <?php if ($current_page == "team") echo('class="current_page_item"'); ?> ><a href="team.php">The Team</a></li>
 								<li <?php if ($current_page == "contribute") echo('class="current_page_item"'); ?> ><a href="contribute.php">Contribute</a></li>
+                <li <?php if ($current_page == "roadmap") echo('class="current_page_item"'); ?> ><a href="roadmap.php">Roadmap</a></li>
 								<li><a href="http://www.pixellight.org/wiki/">Wiki</a></li>
 								<li><a href="http://pixellight.org/forum/">Forums</a></li>
 							</ul>

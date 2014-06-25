@@ -123,6 +123,8 @@ a:hover { text-decoration: underline; }
 a:focus { outline: thin dotted; }
 a:hover, a:active { outline: 0; }
 
+.invert-colors a { color: #8ED7E1 }
+
 /* table */
 table { width: 100%; max-width: 100%; margin-bottom: 1.5em; border-collapse: collapse; border-spacing: 0; background-color: #fff; border: 1px solid #ddd; }
 table th, table td, table caption { padding: 0.4em; vertical-align: middle; border: 1px solid #ddd; }
