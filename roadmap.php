@@ -10,7 +10,7 @@ include('header.php');
 		<div class="col grid12 textcenter">
 			<h2 class="bottom-shadow">Development Roadmap</h2>
       <p>
-        <i>Coming soon...</i>
+        PixelLight's public roadmap is hosted on <a href="https://trello.com/b/asjV3I1o/core-development" target="_blank">Trello</a>.
       </p>
 		</div>
 		<div class="col grid9">
